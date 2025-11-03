@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonModule, DecimalPipe } from '@angular/common';
 import { Serie } from '../../serie';
 import { series } from '../../data/series';
 
@@ -6,7 +7,8 @@ import { series } from '../../data/series';
   selector: 'app-series-table',
   templateUrl: './series-table.html',
   styleUrls: ['./series-table.css'],
-  standalone: true            
+  standalone: true,
+  imports: [CommonModule, DecimalPipe] 
 })
 export class SeriesTable implements OnInit {
   series: Serie[] = [];
