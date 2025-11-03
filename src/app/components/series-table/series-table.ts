@@ -12,20 +12,20 @@ import { series } from '../../data/series';
 })
 export class SeriesTable implements OnInit {
   series: Serie[] = [];
-  selectedSerie: Serie | null = null;
   averageSeasons: number = 0;
+  selectedSerie: Serie | null = null;
 
   ngOnInit(): void {
     this.series = series;
     this.averageSeasons = this.getAverageSeasons();
   }
 
-  selectSerie(serie: Serie): void {
-    this.selectedSerie = serie;
-  }
-
   getAverageSeasons(): number {
     const totalSeasons = this.series.reduce((total, s) => total + s.seasons, 0);
     return totalSeasons / this.series.length;
+  }
+
+  selectSerie(serie: Serie): void {
+    this.selectedSerie = serie;
   }
 }

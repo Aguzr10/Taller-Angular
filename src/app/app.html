@@ -1,13 +1,20 @@
-<nav class="navbar navbar-custom justify-content-end">
+<nav class="navbar navbar-custom">
   <a class="navbar-brand mb-0 h1" href="#">
+    <img src="assets/images/icono.png" alt="Logo" />
     TV Series
-    <img src="assets/icono.png" alt="Logo" />
   </a>
 </nav>
 
-
-<div class="container-fluid main-container">
+<div class="main-container container-fluid">
   <div class="row">
-    <app-series-table></app-series-table>
+    
+    <div class="col-md-4 table-container">
+      <app-series-table></app-series-table>
+    </div>
+
+
+    <div class="col-md-8 card-container">
+      <ng-content></ng-content>
+    </div>
   </div>
 </div>
