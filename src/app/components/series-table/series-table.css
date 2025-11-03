@@ -1,13 +1,31 @@
-.table thead {
+.table {
+  border-collapse: collapse;
   background-color: white;
+}
+
+.table thead {
+  background-color: white !important;
   color: black;
   border-bottom: 2px solid #24a2b8;
 }
 
-.table tbody tr {
+
+.series-row {
   background-color: #e9ecef !important;
 }
 
-.table tbody tr.avg-row {
+
+.avg-row {
   background-color: white !important;
+}
+
+.series-row:hover {
+  background-color: #d6d8db !important;
+  cursor: pointer;
+}
+
+
+.table th,
+.table td {
+  vertical-align: middle;
 }

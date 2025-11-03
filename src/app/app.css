@@ -1,0 +1,28 @@
+.navbar-custom {
+  background-color: #24a2b8;
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.navbar-brand {
+  color: black !important;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-brand img {
+  height: 26px;
+  width: 26px;
+}
+
+
+body {
+  background-color: #f8f9fa;
+}
+
+.main-container {
+  margin-top: 30px;
+  margin-left: 40px;
+}
