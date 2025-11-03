@@ -3,30 +3,25 @@
   border-collapse: collapse;
 }
 
-/* Encabezado blanco */
 .table thead {
-  background-color: white !important;
+  background-color: white;
   color: black;
   border-bottom: 2px solid #24a2b8;
 }
 
-/* Filas de series grises */
-.series-row {
+.table tbody tr {
   background-color: #e9ecef !important;
-  cursor: pointer;
 }
 
-/* Hover */
-.series-row:hover {
-  background-color: #d6d8db !important;
-}
-
-/* Fila del promedio blanca */
-.avg-row {
+.table tbody tr.avg-row {
   background-color: white !important;
 }
 
-/* Card a la derecha */
+.series-row:hover {
+  background-color: #d6d8db !important;
+  cursor: pointer;
+}
+
 .card {
   width: 400px;
   margin-left: 40px;
@@ -36,13 +31,4 @@
 .card img {
   height: 200px;
   object-fit: cover;
-}
-
-.serie-link {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.serie-link:hover {
-  text-decoration: underline;
 }

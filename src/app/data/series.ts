@@ -6,7 +6,7 @@ export const series: Serie[] = [
     "Breaking Bad",
     "AMC",
     5,
-    "Set and filmed in Albuquerque, New Mexico, the series tells the story of Walter White, an underemployed and depressed high school chemistry teacher who is struggling with a recent diagnosis of stage-three lung cancer. White turns to a life of crime, producing and distributing crystal methamphetamine to secure his family's financial future before he dies, partnering with his former student Jesse Pinkman.",
+    "Set and filmed in Albuquerque, New Mexico, the series follows Walter White, an over-qualified, dispirited high-school chemistry teacher who is diagnosed with lung cancer.",
     "https://www.amc.com/shows/breaking-bad",
     "https://i.imgur.com/GGje0vc.jpg"
   ),
@@ -15,7 +15,7 @@ export const series: Serie[] = [
     "Orange Is the New Black",
     "Netflix",
     6,
-    "The series begins revolving around Piper Chapman, a woman in her thirties living in New York City who is sentenced to 15 months in Litchfield Penitentiary, a minimum-security women's federal prison in upstate New York. Piper has been convicted of transporting a suitcase full of drug money for her girlfriend Alex Vause, an international drug smuggler. The offense occurred ten years prior to the start of the series, and in that time Piper moved on to a quiet, law-abiding life among New York’s upper middle class.",
+    "Piper Chapman goes to prison for a past crime and faces friendship, love, and survival inside a women's correctional facility.",
     "https://www.netflix.com/co/title/70242311",
     "https://i.imgur.com/EvKe48G.jpg"
   ),
@@ -24,7 +24,7 @@ export const series: Serie[] = [
     "Game of Thrones",
     "HBO",
     7,
-    "American fantasy drama television series created by David Benioff and D. B. Weiss for HBO. It is an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin, the first of which is A Game of Thrones. The show is set on the fictional continents of Westeros and Essos and has an ensemble cast that portrays several story arcs over the course of eight seasons.",
+    "Powerful families battle for the Iron Throne while an ancient threat rises in the North. Epic medieval fantasy drama.",
     "https://www.hbo.com/game-of-thrones",
     "https://i.imgur.com/TDCEV1S.jpg"
   ),
@@ -33,7 +33,7 @@ export const series: Serie[] = [
     "The Big Bang Theory",
     "CBS",
     12,
-    "Leonard and Sheldon are brilliant physicists, the kind of 'beautiful minds' that understand how the universe works. But none of that genius helps them interact with people, especially women. All this begins to change when a free-spirited beauty named Penny moves in next door. Sheldon, Leonard’s roommate, is quite content spending his nights playing Klingon Boggle with their socially dysfunctional friends, fellow scientists Wolowitz and Koothrappali. However, Leonard sees in Penny a whole new universe of possibilities... including love.",
+    "Two brilliant but socially awkward physicists have their lives changed when a free-spirited neighbor moves in next door.",
     "https://www.cbs.com/shows/big_bang_theory/about/",
     "https://i.imgur.com/uAEpVWk.jpg"
   ),
@@ -42,7 +42,7 @@ export const series: Serie[] = [
     "Sherlock",
     "BBC",
     4,
-    "Sherlock depicts 'consulting detective' Sherlock Holmes solving various mysteries in modern-day London. Holmes is assisted by his flatmate and friend, Dr. John Watson, who has returned from military service in Afghanistan. The show features reimaginings of classic Holmes cases and characters, exploring their relevance and resonance in the 21st century while maintaining the spirit of Arthur Conan Doyle’s original works.",
+    "Sherlock Holmes and John Watson solve crimes in modern London with sharp wit, technology, and brilliant deduction.",
     "https://www.bbc.co.uk/programmes/b018ttws",
     "https://i.imgur.com/02B7qhj.jpg"
   ),
@@ -51,7 +51,7 @@ export const series: Serie[] = [
     "A Very English Scandal",
     "BBC",
     2,
-    "A fact-based three-part British television comedy-drama that depicts the 1970s Jeremy Thorpe scandal, in which a British politician is accused of conspiring to murder his former lover. The series explores the darkly humorous side of British politics, hypocrisy, and class while dramatizing one of the first major public scandals involving a gay relationship in the UK’s political landscape.",
+    "Politician Jeremy Thorpe becomes entangled in a scandal when he tries to silence his former lover. Based on true events.",
     "https://www.bbc.co.uk/programmes/p065smy4",
     "https://i.imgur.com/D4y3DrQ.jpg"
   )
